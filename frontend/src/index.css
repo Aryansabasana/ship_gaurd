@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Bebas+Neue&family=Rajdhani:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --black: #0a0a0a;
+  --dark: #111111;
+  --card: #141414;
+  --border: #1e1e1e;
+  --border2: #2a2a2a;
+  --accent: #ff6b5b;
+  --green: #4ade80;
+  --text: #f0f0f0;
+  --text2: #b0b0b0;
+  --text3: #888888;
+}
+
+body {
+  background: var(--black);
+  color: var(--text);
+  font-family: 'Rajdhani', sans-serif;
+}
+
+@layer utilities {
+  .font-mono { font-family: 'Share Tech Mono', monospace; }
+  .font-display { font-family: 'Bebas Neue', sans-serif; }
+}
